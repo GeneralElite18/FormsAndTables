@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: rgb(215, 246, 250);
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 5rem;
+    background-color: rgb(196, 233, 220);
+    border-radius: 1rem;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: rgb(87, 210, 216);
+}
+
+table tr:nth-child(even){
+    background-color: rgb(87, 210, 216);
+}
+
+form{
+    background-color: rgb(196, 233, 220);
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+form > label {
+    display: block;
+    padding: 0.5rem;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    
+}
